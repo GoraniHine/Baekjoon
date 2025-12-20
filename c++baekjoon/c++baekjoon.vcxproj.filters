@@ -36,7 +36,17 @@
     <ClCompile Include="B17298.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="B1427.cpp">
+=======
+    <ClCompile Include="B17299.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="B30618.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="B2108.cpp">
+>>>>>>> 977e401d6ccf2caaf7c5981d3c6f54eeb498913b
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
