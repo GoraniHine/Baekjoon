@@ -27,7 +27,8 @@ int main() {
     sort(B.begin(), B.end());
 
     for (int i = 0; i < n; i++) {
-        if (binary_search(B.begin(), B.end(), A[i])) {
+        if (binary_search(B.begin(), B.end(), A[i])) { // B가 정렬되어 있어야 사용이 가능함.
+            //find는 큰 데이터에서는 느리다. 시간복잡도 O(n);
             C.push_back(A[i]);
         }
     }
