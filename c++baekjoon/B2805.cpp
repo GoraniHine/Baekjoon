@@ -6,7 +6,9 @@ using namespace std;
 
 
 int main() {
-    int n, m, sum = 0, left = 0, right = 0, mid;
+    long long left = 0, right = 0, mid;
+    long long n, m;
+    long long sum; // int로 불가능한 숫자를 계산해야함
     cin >> n >> m;
     vector<int> A(n);
 
