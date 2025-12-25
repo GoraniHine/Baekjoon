@@ -87,5 +87,8 @@
     <ClCompile Include="B1094.cpp">
       <Filter>소스 파일\Theme 11_비트 연산</Filter>
     </ClCompile>
+    <ClCompile Include="B24389.cpp">
+      <Filter>소스 파일\Theme 11_비트 연산</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
