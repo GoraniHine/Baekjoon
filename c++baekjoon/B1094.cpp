@@ -5,10 +5,10 @@ using namespace std;
 
 int main()
 {
-	int X, count = 0;
+	int X, count = 0, first = 0;
 	cin >> X;
 
-	for (int i = 6; i > -1; i--)
+	for (int i = 19; i > -1; i--)
 	{
 		if (X & (1 << i))
 		{
